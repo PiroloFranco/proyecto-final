@@ -1,0 +1,20 @@
+.navbar {
+    ul{
+        display: flex;
+        justify-content: center;
+    li{
+        display: block;
+        margin: 0.5vh;
+        padding: 10px;
+        @include hover;
+    .nav-link{ 
+        color: $bg-oscuro !important;
+        text-decoration: none;
+        &:hover{
+        font-weight: bolder;         
+                        }
+                    }
+                }
+            }
+        }
+    

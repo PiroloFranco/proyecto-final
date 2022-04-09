@@ -1,0 +1,44 @@
+@media only screen and (max-width: 480px) {
+.header{
+    font-size: 1.5vh;
+}
+.subtitulo{
+    font-size: 2.2vh;
+}
+.galery-img{
+    margin: 2vh;
+}
+.video{
+    justify-content: center;
+}
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        font-size: 1.5vh;
+    }
+    .subtitulo{
+        font-size: 2.2vh;
+    }
+    .galery-img{
+        margin: 2vh;
+        
+    }
+    .video{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .header{
+        font-size: 2vh;
+    }
+    .subtitulo{
+        font-size: 2h;
+    }
+    .galery-img{
+        margin: 2vh;
+        
+    }
+    .video{
+        justify-content: center;
+    }
+}

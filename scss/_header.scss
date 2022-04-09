@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: left;
+    margin:  5px 15px;
+    a{
+        text-decoration: none;
+        color: $bg-oscuro;
+        &:hover{
+            transition: 1s;
+            color: $bg-claro;
+        }
+    }
+    
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    color: $bg-oscuro;
+}

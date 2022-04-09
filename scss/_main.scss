@@ -1,0 +1,19 @@
+.texto{
+    margin: 1vh;
+}
+    .galery-img{
+        margin: auto 2vw 2vh;
+        align-items: center;
+        justify-content: space-around;
+        &:hover{
+            @include hover;
+            }
+        }
+.video{
+    justify-content: space-around;
+    margin: 2vh 2vw;
+    padding: auto; 
+    &:hover{
+        @include hover;
+    }
+}

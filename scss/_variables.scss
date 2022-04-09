@@ -1,0 +1,11 @@
+$bg-claro: #9bcaf2;
+$bg-oscuro: #2477bf;
+
+@mixin hover {
+    &:hover{
+        transition: transform 0.3s;
+    }
+    &:hover{
+        transform: scale(1.5);
+    }
+} 

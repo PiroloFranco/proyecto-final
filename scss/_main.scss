@@ -10,10 +10,14 @@
             }
         }
 .video{
+    display: inline-block;
     justify-content: space-around;
-    margin: 2vh 2vw;
+    height: auto;
+    width: auto;
+    margin: 2vw;
     padding: auto; 
     &:hover{
         @include hover;
+        
     }
 }

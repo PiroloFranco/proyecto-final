@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     <!-- Termina Google fonts -->
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/imagenes/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/imagenes/favicon_io/favicon-32x32.png">
@@ -43,52 +43,62 @@
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item mx-auto">
-                    <a class="nav-link" href="./pages/about.html">About me</a>
+                    <a class="nav-link" href="../pages/about.html">About me</a>
                   </li>
                   <li class="nav-item mx-auto">
-                    <a class="nav-link" href="./pages/skill.html">Skill set</a>
+                    <a class="nav-link" href="skill.html">Skill set</a>
                   </li>
                   <li class="nav-item mx-auto">
-                    <a class="nav-link" href="./pages/projects.html">Projects</a>
+                    <a class="nav-link" href="../pages/projects.html">Projects</a>
                   </li>
                   <li class="nav-item mx-auto">
-                    <a class="nav-link" href="./pages/contact.html">Contact</a>
+                    <a class="nav-link" href="../pages/contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         <main class="contenido">
-            <section class="texto">
-                <p>
-                    Im a Front-end developer looking for my first job as a developer, therefore get into this job niche. About my soft skills i can mention i'm  proactive, responsible and structured person. Im always trying to learn new technologies and increase my knowledges in more fields of the development.
-                    I discover the programming about a year ago and i really found something that im appasionate about, so i can't stop searching and investigating about it. As a consequence i started making some courses on this field, such as: Web development, Javascript and the server side, React.js, SQL and NoSQL. Right now i think i could be up to work and learn from other co-wokers with more experience than me and be abble to involve on a professional enviroment.
-                </p>
             </section>
             <section class="galery">
                 <h3 class="subtitulo">
                     Skill set
                 </h3>
-                <div class="widget-1">
-                    <img class="galery-img"src="./assets/imagenes/html5.png" alt="HTML5">
-                    <img class="galery-img" src="./assets/imagenes/css3.png" alt="CSS3">
-                    <img class="galery-img" src="./assets/imagenes/javascript.png" alt="JavaScript">
-                    <img class="imag" src="./assets/imagenes/react.png" alt="React.Js">
-                    <img class="galery-img" src="./assets/imagenes/github.png" alt="Github">
-                    <img class="galery-img" src="./assets/imagenes/git.png" alt="Git"> 
-                    <img class="galery-img" src="./assets/imagenes/bootstrap.png" alt="Bootstrap">
-                    <img class="galery-img" src="./assets/imagenes/sass.png" alt="Sass">
-                </div>
-            </section>
-            <section>
-                <h3 class="subtitulo">
-                    Projects
-                </h3>
-                <div class="widget-2">
-                    <iframe class="video" src="https://www.youtube.com/embed/ANxoh70EX-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls class="video"></iframe>
-                    <iframe class="video" src="https://www.youtube.com/embed/icczAumbBpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
-                    <iframe class="video" src="https://www.youtube.com/embed/GbPAYZ7tXUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="video" src="https://www.youtube.com/embed/7m7Ub_HHhR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/imagenes/carousel/html.png" class="d-block w-auto mx-auto" alt="HTML5">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/css3.png" class="d-block w-auto mx-auto" alt="CSS3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/javascript.png" class="d-block w-auto mx-auto" alt="JavaScript">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/react.png" class="d-block w-auto mx-auto" alt="React.js">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/github.png" class="d-block w-auto mx-auto" alt="Github">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/git.png" class="d-block w-auto mx-auto" alt="Git">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/bootstrap.png" class="d-block w-auto mx-auto" alt="Bootstrap">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/imagenes/carousel/sass.png" class="d-block w-auto mx-auto" alt="Sass">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
             </section>
         </main>
@@ -96,20 +106,28 @@
             <nav>
                 <div class="footer__media">
                     <ul>
-                        <li class="footer__media-1"><a href="https://github.com/PiroloFranco" target="_blank"><img src="./assets/imagenes/github.png" alt="Esto es el logo de Github"></a></li>
-                        <li class="footer__media-2"><a href="https://www.linkedin.com/in/francopirolo/" target="_blank"><img src="./assets/imagenes/linkedin.png" alt="Esto es el logo de LinkedIn"></a></li>
+                        <li class="footer__media-1"><a href="https://github.com/PiroloFranco" target="_blank"><img src="../assets/imagenes/github.png" alt="Esto es el logo de Github"></a></li>
+                        <li class="footer__media-1"><a href="https://www.linkedin.com/in/francopirolo/" target="_blank"><img src="../assets/imagenes/linkedin.png" alt="Esto es el logo de LinkedIn"></a></li>
                     </ul>
                 </div>
             </nav>
-            <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skill">Skill set</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+            <ul class="footer__links">
+                <li><a class="footer__links-a" href="#about">
+                    About me
+                </a></li>
+                <li><a class="footer__links-a" href="#skill">
+                    Skill set
+                </a></li>
+                <li><a class="footer__links-a" href="#project">
+                    Projects
+                </a></li>
+                <li><a class="footer__links-a" href="#Contact">
+                    Contact
+                </a></li>
             </ul>
             <div class="footer__copy">
                 <small>Copyright © 2022</small>
-                <a href="index.html">Pirolo Franco</a>
+                <a href="/index.html">Pirolo Franco</a>
             </div>
         </footer>
     </div>

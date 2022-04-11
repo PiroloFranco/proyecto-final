@@ -128,6 +128,106 @@ body {
   font-weight: bolder;
 }
 
+.contact-form-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "contact info info" "contact info info" "contact info info";
+}
+
+.contact-form {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: contact;
+}
+
+.contact-info {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: info;
+  background-color: #9bcaf2;
+}
+
+.moreinf {
+  list-style: none;
+}
+
+.contenedor-form {
+  padding: 1.5em;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-form-container > * {
+  padding: 1em;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button {
+  background: #9bcaf2;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #2477bf;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: #9bcaf2;
+}
+
+.contact-info ul li {
+  padding: 0.3em;
+}
+
+.contact-info .moreinf {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: left;
+  margin: 15px;
+}
+
 .texto {
   margin: 1vh;
 }
@@ -154,9 +254,12 @@ body {
 }
 
 .video {
+  display: inline-block;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 2vh 2vw;
+  height: auto;
+  width: auto;
+  margin: 2vw;
   padding: auto;
 }
 
@@ -173,6 +276,8 @@ body {
 }
 
 footer {
+  bottom: 0;
+  width: 100%;
   line-height: 3;
   text-align: center;
   width: 100%;

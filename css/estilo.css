@@ -9,9 +9,18 @@
     margin: 2vh;
   }
   .video {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+  }
+  .footer .footer__media li {
+    margin: 5px;
+  }
+  .footer .footer__links li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -26,9 +35,10 @@
     margin: 2vh;
   }
   .video {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
   }
 }
 
@@ -57,7 +67,7 @@
 }
 
 body {
-  font-family: 'Poppins' , sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {

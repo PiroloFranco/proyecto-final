@@ -9,7 +9,21 @@
     margin: 2vh;
 }
 .video{
-    justify-content: center;
+    display: flex;
+    justify-self: center;
+}
+.footer{
+    .footer__media{
+        li{
+            margin: 5px;
+        }
+    }
+    .footer__links{
+        li{
+            display: flex;
+        }
+        
+    }
 }
 }
 @media only screen and (max-width: 768px) {
@@ -24,7 +38,8 @@
         
     }
     .video{
-        justify-content: center;
+        display: flex;
+        justify-items: center;
     }
 }
 @media only screen and (max-width: 1024px) {

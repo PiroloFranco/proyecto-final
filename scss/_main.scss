@@ -17,7 +17,7 @@
     margin: 2vw;
     padding: auto; 
     &:hover{
-        @include hover;
-        
+            transition: transform 0.3s;
+            transform: scale(1.1);
+        }
     }
-}

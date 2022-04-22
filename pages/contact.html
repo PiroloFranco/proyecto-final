@@ -59,49 +59,30 @@
             </div>
           </nav>
           <h2 class="subtitulo">Get in touch</h2>           
-          <div class="contenedor-form">
-        <div class="contact-form-container">
-            <div class="contact-form">
-                <form>
-                    <fieldset>
-                        <label for="fullname">
-                           <p>Fullname</p>
-                        </label>
-                            <input type="text" name="fullname" id="fullname">                
-                        <label for="email">
-                           <p>Email Adress</p>
-                        </label>
-                            <input type="email" name="email" id="email">               
-                        <label for="phone">
-                            <p>Phone Number</p>
-                        </label>
-                        <input type="tel" name="phone" id="phone">              
-                        <label for="affair">
-                            <p>Affair</p>
-                        </label>
-                            <input type="text" name="affair" id="affair">              
-                        <label for="message">
-                            <p class="block">Message</p>
-                        </label>
-                            <textarea name="message" rows="3">
-                            </textarea>              
-                        <button type="submit">
-                            <p class="block">Send</p>
-                        </button>              
-                    </fieldset>
-                </form>     
-            </div>      
-        <div class="contact-info">
-                <h4>More Info</h4>
-                    <ul class="moreinf">
-                        <li>Lanus Oeste</li>
-                        <li>+54 11 6730-1164</li>
-                        <li>pirolofip@gmail.com</li>
-                    </ul>
-                <p>Contactame por cualquiera de estos medios y te voy a responder en la brevedad!.</p>
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
             </div>
-    </div>
-</div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>             
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">Email</label>
+                <input type="email" class="form-control" id="validationCustom03" value="example@hotmail.com" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email.
+                </div>
+              </div>
+            <div class="col-md-4">
+                <label for="validationTextarea" class="form-label">Affair</label>
+                <textarea class="form-control " id="validationTextarea" placeholder="Required example textarea" required></textarea> 
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
         <footer class="footer">
             <nav>
                 <div class="footer__media">

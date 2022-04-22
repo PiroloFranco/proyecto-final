@@ -1,3 +1,7 @@
+.contenedor-form{
+  width: auto;
+  margin: auto;
+}
 .contact-form-container{
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -57,7 +61,9 @@
     outline: 0;
   }
   .contact-info {
-    background: #9bcaf2;
+    background: $bg-claro;
+    height: 70vh;
+    width: auto;
     ul{
         li{
             padding: 0.3em;

@@ -72,6 +72,14 @@
 body {
   font-family: 'Poppins', sans-serif;
   position: relative;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .header {
@@ -287,6 +295,15 @@ body {
   transition: transform 0.3s, -webkit-transform 0.3s;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.widget-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer {
